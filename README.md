@@ -37,3 +37,6 @@ while True:
 
 
 Allumer une LED 🥳✅
+
+
+Tentative Pour récuperer la temperature avec un capteur de temp
