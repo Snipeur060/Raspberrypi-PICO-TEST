@@ -39,4 +39,4 @@ while True:
 Allumer une LED 🥳✅
 
 
-Tentative Pour récuperer la temperature avec un capteur de temp
+Tentative Pour récuperer la luminosité avec un capteur de lumière
