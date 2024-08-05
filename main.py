@@ -50,12 +50,18 @@ capteur = dht.DHT11(Pin(5))
 
 
 while True:
+
     resultdata = ldr.read_u16()
+    capteur.measure()
     if resultdata < 650:
         led.off()
         rgb.color = (0, 0, 255)
     else:
         rgb.color = (0, 255, 0)
         led.on()
-    sleep(0.5)
+        
+        
+    if capteur.temperature() > 20:
+        rgb.color = (255, 128, 0)
+    sleep(1)
   
