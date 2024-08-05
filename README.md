@@ -31,3 +31,6 @@ while True:
     utime.sleep(1)
 
 ```
+
+![image](https://github.com/user-attachments/assets/e4196496-ad98-46b2-ae3d-71d77e5c5960)
+
