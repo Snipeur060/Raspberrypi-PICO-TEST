@@ -62,3 +62,7 @@ while True:
 Dans la console:
 ![image](https://github.com/user-attachments/assets/1ce9c4a8-8284-455d-95a1-52be06e2900a)
 
+
+Try to fix neopixel error 
+https://github.com/blaz-r/pi_pico_neopixel/issues/7
+
