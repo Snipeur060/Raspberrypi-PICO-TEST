@@ -48,6 +48,17 @@ ldr = machine.ADC(27)
 
 capteur = dht.DHT11(Pin(5))
 
+def sendtemp(temp):
+    try:
+        url = f"https://interaction.snipeur060.fr/settemp?temp={temp}"
+        data=requests.get(url)
+        data.close()
+        print(f"temp ok {temp}")
+
+    except:
+        print("could not connect (status =" + str(wlan.status()) + ")")
+
+
 
 while True:
 
@@ -62,6 +73,7 @@ while True:
         
         
     if capteur.temperature() > 20:
+        sendtemp(capteur.temperature())
         rgb.color = (255, 128, 0)
     sleep(1)
   
