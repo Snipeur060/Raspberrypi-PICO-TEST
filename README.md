@@ -8,3 +8,7 @@ Tentative pour se connecter avec Thonny sur le pico
 
 
 18h00 ![image](https://github.com/user-attachments/assets/ea177032-adc2-445f-9e07-084c2de4a25e)
+
+
+
+J'essaie de faire briller la led (onboard led) sans succès
