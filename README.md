@@ -12,3 +12,22 @@ Tentative pour se connecter avec Thonny sur le pico
 
 
 J'essaie de faire briller la led (onboard led) sans succès
+
+
+
+Le raspberry pico W ne foncitonne pas avec le pin 25
+```py
+
+from machine import * 
+import utime
+ 
+led = Pin('LED', Pin.OUT)
+
+ 
+while True:
+    led.value(1)
+    utime.sleep(1)
+    led.value(0)
+    utime.sleep(1)
+
+```
