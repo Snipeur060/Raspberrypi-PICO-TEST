@@ -4,6 +4,8 @@ from picozero import RGBLED
 import network
 import urequests as requests
 import time
+import dht
+
 
 # Wi-Fi credentials
 ssid = 'picolepetit'
@@ -38,12 +40,13 @@ connectme()
 
 print("Hello, Pi Pico!")
 
-led = Pin(5, Pin.OUT)
+led = Pin(2, Pin.OUT)
 
 rgb = RGBLED(blue = 20, red = 19, green = 18)
 
 ldr = machine.ADC(27)
 
+capteur = dht.DHT11(Pin(5))
 
 
 while True:
