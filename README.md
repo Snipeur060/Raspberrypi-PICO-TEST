@@ -70,4 +70,4 @@ Abandon du neopixel
 
 https://wokwi.com/projects/405403990069658625
 
-
+Tout est dans https://github.com/Snipeur060/Raspberrypi-PICO-TEST/blob/main/main.py
