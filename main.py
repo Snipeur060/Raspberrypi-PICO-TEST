@@ -3,11 +3,11 @@ from utime import sleep
 from picozero import RGBLED
 import network
 import socket
-
+import time
 
 # Wi-Fi credentials
 ssid = 'picolepetit'
-password = 'ddddddefrfgrgh-ujè'
+password = 'PICOnotnow'
 
 
 # HTML template for the webpage
