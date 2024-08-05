@@ -66,3 +66,8 @@ Dans la console:
 Try to fix neopixel error 
 https://github.com/blaz-r/pi_pico_neopixel/issues/7
 
+Abandon du neopixel 
+
+https://wokwi.com/projects/405403990069658625
+
+
