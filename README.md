@@ -77,3 +77,13 @@ Tout est dans https://github.com/Snipeur060/Raspberrypi-PICO-TEST/blob/main/main
 Mise en place d'un système de couleur qui permet de savoir si on approche ou non de la nuit ou du jour
 
 ![IMG_20240805_204849](https://github.com/user-attachments/assets/bcf1d031-3005-475d-abd2-7f154b00a64d)
+
+
+
+Ajout du capteur de temperature et implementation de l'api PHP avec la page web
+
+Lien de la démo 🚀:  https://interaction.snipeur060.fr/
+
+
+
+
