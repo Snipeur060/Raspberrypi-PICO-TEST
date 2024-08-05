@@ -40,3 +40,21 @@ Allumer une LED 🥳✅
 
 
 Tentative Pour récuperer la luminosité avec un capteur de lumière
+
+
+Ajout du capteur de luminosité
+
+```py
+from machine import Pin
+from utime import sleep
+
+print("Hello, Pi Pico!")
+
+led = Pin(5, Pin.OUT)
+ldr = machine.ADC(27)
+while True:
+  led.toggle()
+  print(ldr.read_u16())
+  sleep(0.5)
+```
+![IMG_20240805_182026](https://github.com/user-attachments/assets/9d4f4fec-33ff-4416-8911-a44f0368b3ee)
