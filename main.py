@@ -30,7 +30,7 @@ def connectme():
 
     # Gestion erreur de connexion
     if wlan.status() != 3:
-        raise RuntimeError('Echec connexion')
+        print('Network not active')
     else:
         print('Connexion reussie')
         status = wlan.ifconfig()
