@@ -11,6 +11,9 @@ ssid = 'picolepetit'
 password = 'PICOnotnow'
 wlan = network.WLAN(network.STA_IF)
 
+
+
+
 def connectme():
     global ssid, password, wlan
     wlan.active(True)
@@ -43,6 +46,7 @@ rgb = RGBLED(blue=20, red=19, green=18)
 ldr = machine.ADC(27)
 capteur = dht.DHT11(Pin(5))
 ldv = Pin(14, Pin.OUT)  # Ajouter la LED verte
+laser = Pin(15, Pin.OUT)
 
 def blink_led(pin, times=1, delay=1):
     """Fait clignoter la LED spécifiée."""
@@ -98,7 +102,8 @@ while True:
         if wlan.status() == 3:
             sendtemp(capteur.temperature())
             sendtime()
-        rgb.color = (255, 128, 0)
+            blink_led(laser,10,0.4)
+        rgb.color = (128, 128, 0)
 
     sleep(1)
 
