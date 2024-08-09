@@ -90,6 +90,10 @@ Lien de la démo 🚀:  https://interaction.snipeur060.fr/
 Essayer de créer sa propre carte pour des led et une antenne
 ![image](https://github.com/user-attachments/assets/523fe6d5-506d-4bad-aa79-e0bf2f6f96a0)
 
+Ajout d'une led pour visualiser l'envoie de data
+![IMG_20240809_225353](https://github.com/user-attachments/assets/32b7d3ec-b09c-4ff9-87eb-80ef08ad7f6e)
+
+
 
 Retour du neopixel et encore un echec rien ne s'allume
 ![image](https://github.com/user-attachments/assets/e7689330-a85a-442d-b5af-efa8af231689)
