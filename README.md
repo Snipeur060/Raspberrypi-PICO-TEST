@@ -85,6 +85,10 @@ Ajout du capteur de temperature et implementation de l'api PHP avec la page web
 Lien de la démo 🚀:  https://interaction.snipeur060.fr/
 
 
+
+Retour du neopixel et encore un echec rien ne s'allume
+![image](https://github.com/user-attachments/assets/e7689330-a85a-442d-b5af-efa8af231689)
+
 ![IMG_20240805_221315](https://github.com/user-attachments/assets/e37332f3-7a92-40c1-bee8-e7d45d2348e5)
 
 Essayer de créer sa propre carte pour des led et une antenne
@@ -94,8 +98,9 @@ Ajout d'une led pour visualiser l'envoie de data
 ![IMG_20240809_225353](https://github.com/user-attachments/assets/32b7d3ec-b09c-4ff9-87eb-80ef08ad7f6e)
 
 
+Ajout d'un laser
+![image](https://github.com/user-attachments/assets/b801eea6-f78a-43b4-9ac2-bc3b25308fc8)
 
-Retour du neopixel et encore un echec rien ne s'allume
-![image](https://github.com/user-attachments/assets/e7689330-a85a-442d-b5af-efa8af231689)
+
 
 
