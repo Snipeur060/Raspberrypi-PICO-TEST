@@ -1,10 +1,12 @@
-from machine import Pin
+from machine import Pin,SPI
 from utime import sleep
 from picozero import RGBLED
 import network
 import urequests as requests
 import time
 import dht
+import max7219
+import time
 
 # Wi-Fi credentials
 ssid = 'picolepetit'
@@ -47,6 +49,10 @@ ldr = machine.ADC(27)
 capteur = dht.DHT11(Pin(5))
 ldv = Pin(14, Pin.OUT)  # Ajouter la LED verte
 laser = Pin(15, Pin.OUT)
+
+
+#spi = SPI(0, baudrate=10000000, polarity=1, phase=0, sck=Pin(2), mosi=Pin(3))
+#ss = Pin(5, Pin.OUT)
 
 def blink_led(pin, times=1, delay=1):
     """Fait clignoter la LED spécifiée."""
