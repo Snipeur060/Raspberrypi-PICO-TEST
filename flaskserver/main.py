@@ -43,9 +43,19 @@ def settemp():
 
 @app.route('/settime', methods=['POST','GET'])
 def settime():
-    data = request.get_json()
-    print(data)
-    return jsonify({"json":"OK"})
+    #on recupere le parametre temp (qui est dans le get)
+    try:
+        temp = request.args.get('time')
+        if temp is not None:
+            print(temp)
+            f = open('time.txt', 'w')
+            f.write(temp)
+            f.close()
+            return jsonify({"success":True})
+        else:
+            return jsonify({"success":False})
+    except:
+        return jsonify({"success":False})
 
 
 
