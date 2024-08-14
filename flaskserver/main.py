@@ -11,10 +11,45 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+def openandtraitfile(file):
+    f = open(file, 'r')
+    data = f.read()
+    f.close()
+    return data
 
 @app.route('/interaction', methods=['GET'])
 def interaction():
+    time = openandtraitfile('time.txt')
+    temp = openandtraitfile('temp.txt')
+    return jsonify({"success":True,"time":time, "temperature":temp})
+
+
+@app.route('/settemp', methods=['POST','GET'])
+def settemp():
+    #on recupere le parametre temp (qui est dans le get)
+    try:
+        temp = request.args.get('temp')
+        if temp is not None:
+            print(temp)
+            f = open('temp.txt', 'w')
+            f.write(temp)
+            f.close()
+            return jsonify({"success":True})
+        else:
+            return jsonify({"success":False})
+    except:
+        return jsonify({"success":False})
+
+
+@app.route('/settime', methods=['POST','GET'])
+def settime():
+    data = request.get_json()
+    print(data)
     return jsonify({"json":"OK"})
+
+
+
+
 
 if __name__ == '__main__':
     print("Flask APP is running")
