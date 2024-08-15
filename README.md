@@ -107,4 +107,13 @@ On installe la lib Rpi.GPIO
 
 C'est pour Cpython pas micropython mdr
 
+Ajout du capteur de bruit + la led Système anti intrusion 
+![image](https://github.com/user-attachments/assets/96be425f-bc7d-4771-b37f-8a4438d988c6)
+
+
+On réecrie le code en asynchrone
+https://jacobpadilla.com/articles/recreating-asyncio
+https://docs.python.org/3/library/asyncio-task.html
+
+
 
