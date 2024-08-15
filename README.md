@@ -102,5 +102,9 @@ Ajout d'un laser
 ![image](https://github.com/user-attachments/assets/b801eea6-f78a-43b4-9ac2-bc3b25308fc8)
 
 
+On installe la lib Rpi.GPIO
+![image](https://github.com/user-attachments/assets/c1c23598-354d-4e26-9c63-3441db83fb94)
+
+
 
 
