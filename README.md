@@ -105,6 +105,6 @@ Ajout d'un laser
 On installe la lib Rpi.GPIO
 ![image](https://github.com/user-attachments/assets/c1c23598-354d-4e26-9c63-3441db83fb94)
 
-
+C'est pour Cpython pas micropython mdr
 
 
