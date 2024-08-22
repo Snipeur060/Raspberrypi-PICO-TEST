@@ -116,4 +116,7 @@ https://jacobpadilla.com/articles/recreating-asyncio
 https://docs.python.org/3/library/asyncio-task.html
 
 
+https://wokwi.com/projects/406945266078910465
+
+![image](https://github.com/user-attachments/assets/54b93dea-ec75-4930-a66c-3cd4ce56de9a)
 
